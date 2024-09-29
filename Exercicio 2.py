@@ -5,7 +5,7 @@
 
 
 Palavra = input(str("Digite uma palavra: "))
-quantidade = Palavra.count("a")
+quantidade = Palavra.lower().count("a")
 
 if quantidade > 0:
     print(f"A letra a aparece {quantidade} vezes")
